@@ -11,6 +11,13 @@
 
 // Part 1 answer 👇🏻 ...
 
+const fullName ="Sarah Abdullah Alenezi";
+const yearOfBirth = 2001;
+const hobby = "drowing";
+const funFact = "whatching series";
+const image = "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png";
+
+
 
 
 
@@ -22,16 +29,18 @@
  * the variables defined above into strings.
  *
  * 1. fullNameString      -> assign it to: My name is {fullName}
- * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
+ * 2. fullNameString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
  * 
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString= `My name is ${fullName}`;
+const yearOfBirthString = `I am ${yearOfBirth} yerse old` ;
+const hobbyString = `My hobby is ${hobby}`;
+
+
 
 
 
@@ -41,18 +50,23 @@
  * Increment your hacker score
  * */
 
-let stars = 0;
+let stars = 1;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars = stars+1;
+
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars-1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars+2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars-2;
 }
