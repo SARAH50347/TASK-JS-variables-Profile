@@ -37,7 +37,7 @@ const image = "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_12
  */
 
 const fullNameString= `My name is ${fullName}`;
-const yearOfBirthString = `I am ${yearOfBirth} yerse old` ;
+const yearOfBirthString = `I am ${ 2024 - yearOfBirth} yerse old` ;
 const hobbyString = `My hobby is ${hobby}`;
 
 
